@@ -140,7 +140,6 @@ This project is licensed under the **MIT License** 📜.
 ### 🙏 Acknowledgments
 
 - Special thanks to [Apratim Dutta](https://github.com/Apratim23) for initial project setup 🙏.
-- Contributions from [Contributor Names] 🤝.
 
 ### 📸 Screenshots
 

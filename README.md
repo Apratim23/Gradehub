@@ -22,8 +22,7 @@
 
 1. **📁 Clone the repository**:
 ```sh
-git clone "https://github.com/Apratim23/Gradehub.git
-"
+git clone "https://github.com/Apratim23/Gradehub.git"
 ```
 
 

@@ -27,7 +27,7 @@ git clone "https://github.com/Apratim23/Gradehub.git"
 
 
 ## 🖼️ Preview
-![Home Page](./preview/)
+![Home Page](./images/Home.png)
 
 ---
 
@@ -61,19 +61,19 @@ pip install -r requirements.txt
 
 
 5. **📊 Configure MySQL**:
-- Install MySQL Server and MySQL Workbench from official websites
+- Install MySQL Server and MySQL Workbench from the official websites
 ```yaml
 MySQL Server Download Link: https://dev.mysql.com/downloads/installer/
 MySQL Workbench Download Link: https://dev.mysql.com/downloads/workbench/
 ```
 - Create a database named `gradehub`.
-- #### In MySQL Workbench, create `user_management` database and use it
+- #### In MySQL Workbench, create a `user_management` database and use it
 ```sql
 CREATE DATABASE gradehub;
 USE gradehub;
 ```
 
-#### In MySQL Workbench, create `user` table and `grades` table and use it 
+#### In MySQL Workbench, create a `user` table and a `grades` table and use it 
 ```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -91,7 +91,7 @@ CREATE TABLE grades (
 );
 ```
 
-#### In MySQL Workbench, insert into `grades` table after creating account using frontend. Do this before logging in.
+#### In MySQL Workbench, insert into the `grades` table after creating an account using the front end. Do this before logging in.
 ```sql
 INSERT INTO grades (user_id, subject, grade) VALUES (1, '<SUBJECT_NAME>', <GRADE>);
 ```
@@ -140,12 +140,11 @@ This project is licensed under the **MIT License** 📜.
 ### 🙏 Acknowledgments
 
 - Special thanks to [Apratim Dutta](https://github.com/Apratim23) for initial project setup 🙏.
-- Contributions from [Contributor Names] 🤝.
 
 ### 📸 Screenshots
 
-- **📸 Login Page**: [Insert screenshot URL]
-- **📸 Dashboard**: [Insert screenshot URL]
+- **📸 Login Page**: ![Login](./images/Login.png)
+- **📸 Dashboard**: ![Dashboard](./images/dashboard.png)
 
 ### 🚀 Future Plans
 
